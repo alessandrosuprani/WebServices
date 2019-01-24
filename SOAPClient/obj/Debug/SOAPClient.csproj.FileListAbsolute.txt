@@ -1,0 +1,30 @@
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\bin\Debug\SOAPClient.exe.config
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\bin\Debug\SOAPClient.exe
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\bin\Debug\SOAPClient.pdb
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\SOAPClient.csprojAssemblyReference.cache
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\MainWindow.g.cs
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\App.g.cs
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\SOAPClient_MarkupCompile.cache
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\SOAPClient_MarkupCompile.lref
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\MainWindow.baml
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\SOAPClient.g.resources
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\SOAPClient.Properties.Resources.resources
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\SOAPClient.csproj.GenerateResource.cache
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\SOAPClient.csproj.CoreCompileInputs.cache
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\SOAPClient.exe
+C:\Users\asus f556uj\source\repos\SOAPClient\SOAPClient\obj\Debug\SOAPClient.pdb
+Z:\xFederica\SOAPClient\SOAPClient\bin\Debug\SOAPClient.exe.config
+Z:\xFederica\SOAPClient\SOAPClient\bin\Debug\SOAPClient.exe
+Z:\xFederica\SOAPClient\SOAPClient\bin\Debug\SOAPClient.pdb
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\SOAPClient.csprojAssemblyReference.cache
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\MainWindow.g.cs
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\App.g.cs
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\SOAPClient_MarkupCompile.cache
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\SOAPClient_MarkupCompile.lref
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\MainWindow.baml
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\SOAPClient.g.resources
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\SOAPClient.Properties.Resources.resources
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\SOAPClient.csproj.GenerateResource.cache
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\SOAPClient.csproj.CoreCompileInputs.cache
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\SOAPClient.exe
+Z:\xFederica\SOAPClient\SOAPClient\obj\Debug\SOAPClient.pdb

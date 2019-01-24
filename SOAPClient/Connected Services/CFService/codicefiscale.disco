@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://webservices.dotnethell.it/codicefiscale.asmx?wsdl" docRef="http://webservices.dotnethell.it/codicefiscale.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://webservices.dotnethell.it/codicefiscale.asmx" xmlns:q1="http://webservices.dotnethell.it/CodiceFiscale" binding="q1:CodiceFiscaleSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://webservices.dotnethell.it/codicefiscale.asmx" xmlns:q2="http://webservices.dotnethell.it/CodiceFiscale" binding="q2:CodiceFiscaleSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
