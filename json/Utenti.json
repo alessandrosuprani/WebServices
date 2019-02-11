@@ -1,0 +1,172 @@
+[
+  {
+    "Id": 0,
+    "Name": "Darlene",
+    "Lastname": "Harper",
+    "Address": [
+      {
+        "Countries": "Egypt",
+        "City": "Greensburg",
+        "Street": "Eldert Street"
+      }
+    ],
+    "CAP": 90161,
+    "PhoneNumber": "+80 14813039",
+    "Fax": "834.462.355",
+    "Email": "osbornemckinney@austex.com",
+    "Password": "consectetur",
+    "CreditCard": [
+      {
+        "Number": 295633162,
+        "Type": "American Express",
+        "ExpirationDate": "<SyntaxError: missing ) after argument list>"
+      }
+    ],
+    "Cart": [
+      {
+        "Book": [
+          {
+            "BookId": "",
+            "Amount": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "Name": "Matthews",
+    "Lastname": "Spence",
+    "Address": [
+      {
+        "Countries": "Zambia",
+        "City": "Vernon",
+        "Street": "Dean Street"
+      }
+    ],
+    "CAP": 12314,
+    "PhoneNumber": "+88 85563940",
+    "Fax": "896.428.362",
+    "Email": "coradelgado@rubadub.com",
+    "Password": "aute",
+    "CreditCard": [
+      {
+        "Number": 722943507,
+        "Type": "Nova",
+        "ExpirationDate": "<SyntaxError: missing ) after argument list>"
+      }
+    ],
+    "Cart": [
+      {
+        "Book": [
+          {
+            "BookId": "",
+            "Amount": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Conway",
+    "Lastname": "Lucas",
+    "Address": [
+      {
+        "Countries": "South Africa",
+        "City": "Conestoga",
+        "Street": "McKinley Avenue"
+      }
+    ],
+    "CAP": 85267,
+    "PhoneNumber": "+81 64302598",
+    "Fax": "899.584.229",
+    "Email": "odomvang@zolarity.com",
+    "Password": "cupidatat",
+    "CreditCard": [
+      {
+        "Number": 326333615,
+        "Type": "Postepay",
+        "ExpirationDate": "<SyntaxError: missing ) after argument list>"
+      }
+    ],
+    "Cart": [
+      {
+        "Book": [
+          {
+            "BookId": "",
+            "Amount": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Francine",
+    "Lastname": "Romero",
+    "Address": [
+      {
+        "Countries": "Brunei Darussalam",
+        "City": "Imperial",
+        "Street": "Lorraine Street"
+      }
+    ],
+    "CAP": 12345,
+    "PhoneNumber": "+88 74243429",
+    "Fax": "974.477.381",
+    "Email": "duffyday@xleen.com",
+    "Password": "voluptate",
+    "CreditCard": [
+      {
+        "Number": 421599320,
+        "Type": "Aura",
+        "ExpirationDate": "<SyntaxError: missing ) after argument list>"
+      }
+    ],
+    "Cart": [
+      {
+        "Book": [
+          {
+            "BookId": "",
+            "Amount": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Elinor",
+    "Lastname": "Trevino",
+    "Address": [
+      {
+        "Countries": "Cape Verde",
+        "City": "Cornucopia",
+        "Street": "Highlawn Avenue"
+      }
+    ],
+    "CAP": 57549,
+    "PhoneNumber": "+83 65642262",
+    "Fax": "912.523.388",
+    "Email": "sheilascott@isologica.com",
+    "Password": "consequat",
+    "CreditCard": [
+      {
+        "Number": 772775256,
+        "Type": "Postepay",
+        "ExpirationDate": "<SyntaxError: missing ) after argument list>"
+      }
+    ],
+    "Cart": [
+      {
+        "Book": [
+          {
+            "BookId": "",
+            "Amount": ""
+          }
+        ]
+      }
+    ]
+  }
+]
