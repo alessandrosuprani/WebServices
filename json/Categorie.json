@@ -1,0 +1,11 @@
+{"Categorie": [
+		{ "Tipo":"Da non perdere", "Sconto":20%},
+		{ "Tipo":"I più venduti", "Sconto":0%},
+		{ "Tipo":"Ultimi arrivi", "Sconto":0%},
+		{ "Tipo":"Remainders", "Sconto":50%},
+		{ "Tipo":"Offerte speciali", "Sconto":25%},
+		{ "Tipo":"Ultimi arrivi", "Sconto":0%},
+		{ "Tipo":"I più venduti", "Sconto":0%},
+		{ "Tipo":"Offerte speciali", "Sconto":25%},
+	 ]
+}
