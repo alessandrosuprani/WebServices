@@ -1,0 +1,13 @@
+{"Autori": [
+		{ "ID":"1", "Nome":Fernán,"Cognome":Caballero},
+		{ "ID":"2", "Nome":Ranieri,"Cognome":Agostini},
+		{ "ID":"3", "Nome":Pietro,"Cognome":Aaron},
+		{ "ID":"4", "Nome":Emil,"Cognome":Wiechert},
+		{ "ID":"5", "Nome":Oscar,"Cognome":Wilde},
+		{ "ID":"6", "Nome":Giovanni,"Cognome":Vaccari},
+		{ "ID":"7", "Nome":Diego,"Cognome":de Vera},
+		{ "ID":"8", "Nome":Primo,"Cognome":Levi},
+		{ "ID":"9", "Nome":Carlo,"Cognome":Valenziani},
+		{ "ID":"10", "Nome":Tullio,"Cognome":Dandolo}
+	 ]
+}
