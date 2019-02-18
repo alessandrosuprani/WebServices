@@ -1,13 +1,12 @@
 {"Libri_Categ": [
-		{ "Libro_ID":"1", "Categ_tipo":Architettura},
-		{ "Libro_ID":"2", "Categ_tipo":Architettura},
-		{ "Libro_ID":"3", "Categ_tipo":Arte},
-		{ "Libro_ID":"4", "Categ_tipo":Architettura},
-		{ "Libro_ID":"5", "Categ_tipo":Arte},
-		{ "Libro_ID":"6", "Categ_tipo":Fumetti},
-		{ "Libro_ID":"7", "Categ_tipo":Architettura},
-		{ "Libro_ID":"8", "Categ_tipo":Arte},
-		{ "Libro_ID":"9", "Categ_tipo":Fumetti},
-		{ "Libro_ID":"10", "Categ_tipo":Arte}
+		{ "Libro_ID":"1", "Categ_tipo":"Architettura"},
+		{ "Libro_ID":"2", "Categ_tipo":"classici greci e latini"},
+		{ "Libro_ID":"3", "Categ_tipo":"Arte"},
+		{ "Libro_ID":"4", "Categ_tipo":"cucina e casa"},
+		{ "Libro_ID":"5", "Categ_tipo":"diritto"},
+		{ "Libro_ID":"6", "Categ_tipo":"Fumetti"},
+		{ "Libro_ID":"7", "Categ_tipo":"economia e management"},
+		{ "Libro_ID":"8", "Categ_tipo":" fantascienza e fantasy"},
+		{ "Libro_ID":"9", "Categ_tipo":"filosofia"}
 	 ]
 }

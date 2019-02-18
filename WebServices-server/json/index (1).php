@@ -5,7 +5,7 @@
 	switch($funzione)
 	{
 		case '0':
-			//$dati=datiConversione('libri.json');
+			$dati=datiConversione('libri.json');
 			$libri=libriConversione('Libri_Categ.json')
 			$arr=array();
 			$i=0;
@@ -19,14 +19,13 @@
 			}
 			break;
 			*/
-			$id = 0
 			foreach ($libri['Libri_Categ'] as $book)
 			{
-				if($book['Categ_tipo'] == "Fumetti")
-					$id = $book['Libro_ID'];
+				if($book['Categ_tipo'] == "fumetti")
+					$id = book['Libro_ID'];
 				
 			}
-			print_r ($id);
+			print_r $id;
 			break;
 	}
 	
@@ -59,7 +58,6 @@
 		$json_response=json_encode($response);
 		echo $json_response;
 	}
-	/*
 	function datiConversione($json)
 	{
 		$str = file_get_contents($json);
@@ -67,7 +65,6 @@
 
 		return $dati;
 	}
-	*/
 	function get_price($find)
 	{
 		$books=datiConversione('libri.json');
@@ -84,7 +81,7 @@
 	function libriConversione($json)
 	{
 		$str = file_get_contents($json);
-		$libri = json_decode($str, true); 
+		$dati = json_decode($str, true); 
 
 		return $libri;
 	}
