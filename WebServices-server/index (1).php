@@ -4,12 +4,13 @@
 	$funzione=$_GET['funzione'];
 	switch($funzione)
 	{
-		case '0':
+		case '1':
+		
 			//$dati=datiConversione('libri.json');
-			$libri=libriConversione('Libri_Categ.json')
-			$arr=array();
+			$libri=libriConversione('Libri_Categ.json');
+			//$arr=array();
 			$i=0;
-			var_dump($dati);
+			//var_dump($dati);
 			/*
 			foreach ($dati['libro'] as $book)
 			{
@@ -19,15 +20,25 @@
 			}
 			break;
 			*/
-			$id = 0
 			foreach ($libri['Libri_Categ'] as $book)
 			{
-				if($book['Categ_tipo'] == "Fumetti")
-					$id = $book['Libro_ID'];
+				if($book['Categ_tipo'] == "fumetti")
+					$id = book['Libro_ID'];
 				
 			}
 			print_r ($id);
 			break;
+			// seconda query
+		case '2':
+			$libri=libriConversione('Categorie.json');
+			$i=0;
+			foreach ($libri['Libri_Categ'] as $book)
+			{
+				if($book['Categ_tipo'] == "fumetti")
+					$id = book['Libro_ID'];
+				
+			}
+			
 	}
 	
 /*	if(!empty($_GET['name'])){
@@ -59,7 +70,7 @@
 		$json_response=json_encode($response);
 		echo $json_response;
 	}
-	/*
+/*
 	function datiConversione($json)
 	{
 		$str = file_get_contents($json);
@@ -67,7 +78,7 @@
 
 		return $dati;
 	}
-	*/
+*/
 	function get_price($find)
 	{
 		$books=datiConversione('libri.json');
@@ -84,8 +95,8 @@
 	function libriConversione($json)
 	{
 		$str = file_get_contents($json);
-		$libri = json_decode($str, true); 
+		$libri= json_decode($str, true); 
 
-		return $libri;
+		return $libr;
 	}
 ?>
