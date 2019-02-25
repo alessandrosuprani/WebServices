@@ -76,6 +76,22 @@ namespace SOAPClient
                 
             }
         }
+        async static void GetRequest2(string url)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                using (HttpResponseMessage response = await client.GetAsync(url))
+                {
+                    using (HttpContent content = response.Content)
+                    {//possiamo usare HttpContentHeader headers = content.Headers;
+                        string mycontent = await content.ReadAsStringAsync();
+                        MessageBox.Show(mycontent);
+                    }
+
+                }
+
+            }
+        }
 
         async static void PostRequest(string url, string nome, string cognome, string comune, string data, string sesso)
         {
