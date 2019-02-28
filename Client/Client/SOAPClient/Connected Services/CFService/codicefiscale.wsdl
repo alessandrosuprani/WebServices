@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://webservices.dotnethell.it/CodiceFiscale" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://webservices.dotnethell.it/CodiceFiscale" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;b&gt;Web Service - Codice Fiscale&lt;/b&gt;&lt;br&gt;Per eventuale problemi segnalate a: &lt;a href="mailto:info@dotnethell.it"&gt;info@dotnethell.it&lt;/a&gt;&lt;br&gt; Grazie.</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://webservices.dotnethell.it/CodiceFiscale">
+      <s:element name="CalcolaCodiceFiscale">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Cognome" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ComuneNascita" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataNascita" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sesso" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalcolaCodiceFiscaleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CalcolaCodiceFiscaleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CodiceComune">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NomeComune" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CodiceComuneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CodiceComuneResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NomeComune">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CodiceComune" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NomeComuneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NomeComuneResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ControllaCodiceFiscale">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CodiceFiscale" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ControllaCodiceFiscaleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ControllaCodiceFiscaleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CalcolaCodiceFiscaleSoapIn">
+    <wsdl:part name="parameters" element="tns:CalcolaCodiceFiscale" />
+  </wsdl:message>
+  <wsdl:message name="CalcolaCodiceFiscaleSoapOut">
+    <wsdl:part name="parameters" element="tns:CalcolaCodiceFiscaleResponse" />
+  </wsdl:message>
+  <wsdl:message name="CodiceComuneSoapIn">
+    <wsdl:part name="parameters" element="tns:CodiceComune" />
+  </wsdl:message>
+  <wsdl:message name="CodiceComuneSoapOut">
+    <wsdl:part name="parameters" element="tns:CodiceComuneResponse" />
+  </wsdl:message>
+  <wsdl:message name="NomeComuneSoapIn">
+    <wsdl:part name="parameters" element="tns:NomeComune" />
+  </wsdl:message>
+  <wsdl:message name="NomeComuneSoapOut">
+    <wsdl:part name="parameters" element="tns:NomeComuneResponse" />
+  </wsdl:message>
+  <wsdl:message name="ControllaCodiceFiscaleSoapIn">
+    <wsdl:part name="parameters" element="tns:ControllaCodiceFiscale" />
+  </wsdl:message>
+  <wsdl:message name="ControllaCodiceFiscaleSoapOut">
+    <wsdl:part name="parameters" element="tns:ControllaCodiceFiscaleResponse" />
+  </wsdl:message>
+  <wsdl:message name="CalcolaCodiceFiscaleHttpGetIn">
+    <wsdl:part name="Nome" type="s:string" />
+    <wsdl:part name="Cognome" type="s:string" />
+    <wsdl:part name="ComuneNascita" type="s:string" />
+    <wsdl:part name="DataNascita" type="s:string" />
+    <wsdl:part name="Sesso" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CalcolaCodiceFiscaleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CodiceComuneHttpGetIn">
+    <wsdl:part name="NomeComune" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CodiceComuneHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="NomeComuneHttpGetIn">
+    <wsdl:part name="CodiceComune" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="NomeComuneHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ControllaCodiceFiscaleHttpGetIn">
+    <wsdl:part name="CodiceFiscale" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ControllaCodiceFiscaleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CalcolaCodiceFiscaleHttpPostIn">
+    <wsdl:part name="Nome" type="s:string" />
+    <wsdl:part name="Cognome" type="s:string" />
+    <wsdl:part name="ComuneNascita" type="s:string" />
+    <wsdl:part name="DataNascita" type="s:string" />
+    <wsdl:part name="Sesso" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CalcolaCodiceFiscaleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CodiceComuneHttpPostIn">
+    <wsdl:part name="NomeComune" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CodiceComuneHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="NomeComuneHttpPostIn">
+    <wsdl:part name="CodiceComune" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="NomeComuneHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ControllaCodiceFiscaleHttpPostIn">
+    <wsdl:part name="CodiceFiscale" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ControllaCodiceFiscaleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="CodiceFiscaleSoap">
+    <wsdl:operation name="CalcolaCodiceFiscale">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Effettua il calcolo del codice fiscale, passando come parametri, nome, cognome, comune di nascita, data di nascita in formato (dd/mm/aaaa) e sesso (M/F) </wsdl:documentation>
+      <wsdl:input message="tns:CalcolaCodiceFiscaleSoapIn" />
+      <wsdl:output message="tns:CalcolaCodiceFiscaleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CodiceComune">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Restituisce il codice del comune di nascita, passando il nome</wsdl:documentation>
+      <wsdl:input message="tns:CodiceComuneSoapIn" />
+      <wsdl:output message="tns:CodiceComuneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NomeComune">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Restituisce il nome del comune inserendo il codice. Utile se per caso non sapete esattamente come digitare il nome del comune.</wsdl:documentation>
+      <wsdl:input message="tns:NomeComuneSoapIn" />
+      <wsdl:output message="tns:NomeComuneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ControllaCodiceFiscale">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Controlla la validità di un Codice Fiscale</wsdl:documentation>
+      <wsdl:input message="tns:ControllaCodiceFiscaleSoapIn" />
+      <wsdl:output message="tns:ControllaCodiceFiscaleSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CodiceFiscaleHttpGet">
+    <wsdl:operation name="CalcolaCodiceFiscale">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Effettua il calcolo del codice fiscale, passando come parametri, nome, cognome, comune di nascita, data di nascita in formato (dd/mm/aaaa) e sesso (M/F) </wsdl:documentation>
+      <wsdl:input message="tns:CalcolaCodiceFiscaleHttpGetIn" />
+      <wsdl:output message="tns:CalcolaCodiceFiscaleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CodiceComune">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Restituisce il codice del comune di nascita, passando il nome</wsdl:documentation>
+      <wsdl:input message="tns:CodiceComuneHttpGetIn" />
+      <wsdl:output message="tns:CodiceComuneHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NomeComune">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Restituisce il nome del comune inserendo il codice. Utile se per caso non sapete esattamente come digitare il nome del comune.</wsdl:documentation>
+      <wsdl:input message="tns:NomeComuneHttpGetIn" />
+      <wsdl:output message="tns:NomeComuneHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ControllaCodiceFiscale">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Controlla la validità di un Codice Fiscale</wsdl:documentation>
+      <wsdl:input message="tns:ControllaCodiceFiscaleHttpGetIn" />
+      <wsdl:output message="tns:ControllaCodiceFiscaleHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CodiceFiscaleHttpPost">
+    <wsdl:operation name="CalcolaCodiceFiscale">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Effettua il calcolo del codice fiscale, passando come parametri, nome, cognome, comune di nascita, data di nascita in formato (dd/mm/aaaa) e sesso (M/F) </wsdl:documentation>
+      <wsdl:input message="tns:CalcolaCodiceFiscaleHttpPostIn" />
+      <wsdl:output message="tns:CalcolaCodiceFiscaleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CodiceComune">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Restituisce il codice del comune di nascita, passando il nome</wsdl:documentation>
+      <wsdl:input message="tns:CodiceComuneHttpPostIn" />
+      <wsdl:output message="tns:CodiceComuneHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NomeComune">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Restituisce il nome del comune inserendo il codice. Utile se per caso non sapete esattamente come digitare il nome del comune.</wsdl:documentation>
+      <wsdl:input message="tns:NomeComuneHttpPostIn" />
+      <wsdl:output message="tns:NomeComuneHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ControllaCodiceFiscale">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Controlla la validità di un Codice Fiscale</wsdl:documentation>
+      <wsdl:input message="tns:ControllaCodiceFiscaleHttpPostIn" />
+      <wsdl:output message="tns:ControllaCodiceFiscaleHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CodiceFiscaleSoap" type="tns:CodiceFiscaleSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalcolaCodiceFiscale">
+      <soap:operation soapAction="http://webservices.dotnethell.it/CodiceFiscale/CalcolaCodiceFiscale" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CodiceComune">
+      <soap:operation soapAction="http://webservices.dotnethell.it/CodiceFiscale/CodiceComune" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NomeComune">
+      <soap:operation soapAction="http://webservices.dotnethell.it/CodiceFiscale/NomeComune" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ControllaCodiceFiscale">
+      <soap:operation soapAction="http://webservices.dotnethell.it/CodiceFiscale/ControllaCodiceFiscale" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CodiceFiscaleSoap12" type="tns:CodiceFiscaleSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalcolaCodiceFiscale">
+      <soap12:operation soapAction="http://webservices.dotnethell.it/CodiceFiscale/CalcolaCodiceFiscale" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CodiceComune">
+      <soap12:operation soapAction="http://webservices.dotnethell.it/CodiceFiscale/CodiceComune" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NomeComune">
+      <soap12:operation soapAction="http://webservices.dotnethell.it/CodiceFiscale/NomeComune" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ControllaCodiceFiscale">
+      <soap12:operation soapAction="http://webservices.dotnethell.it/CodiceFiscale/ControllaCodiceFiscale" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CodiceFiscaleHttpGet" type="tns:CodiceFiscaleHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="CalcolaCodiceFiscale">
+      <http:operation location="/CalcolaCodiceFiscale" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CodiceComune">
+      <http:operation location="/CodiceComune" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NomeComune">
+      <http:operation location="/NomeComune" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ControllaCodiceFiscale">
+      <http:operation location="/ControllaCodiceFiscale" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CodiceFiscaleHttpPost" type="tns:CodiceFiscaleHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="CalcolaCodiceFiscale">
+      <http:operation location="/CalcolaCodiceFiscale" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CodiceComune">
+      <http:operation location="/CodiceComune" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NomeComune">
+      <http:operation location="/NomeComune" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ControllaCodiceFiscale">
+      <http:operation location="/ControllaCodiceFiscale" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CodiceFiscale">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;b&gt;Web Service - Codice Fiscale&lt;/b&gt;&lt;br&gt;Per eventuale problemi segnalate a: &lt;a href="mailto:info@dotnethell.it"&gt;info@dotnethell.it&lt;/a&gt;&lt;br&gt; Grazie.</wsdl:documentation>
+    <wsdl:port name="CodiceFiscaleSoap" binding="tns:CodiceFiscaleSoap">
+      <soap:address location="http://webservices.dotnethell.it/codicefiscale.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CodiceFiscaleSoap12" binding="tns:CodiceFiscaleSoap12">
+      <soap12:address location="http://webservices.dotnethell.it/codicefiscale.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CodiceFiscaleHttpGet" binding="tns:CodiceFiscaleHttpGet">
+      <http:address location="http://webservices.dotnethell.it/codicefiscale.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CodiceFiscaleHttpPost" binding="tns:CodiceFiscaleHttpPost">
+      <http:address location="http://webservices.dotnethell.it/codicefiscale.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

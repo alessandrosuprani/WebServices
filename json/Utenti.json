@@ -1,10 +1,13 @@
-{"Utenti":[{"Telefono":"840-716-6406","Nome":"Rachel","Cognome":"Jahnel","email":"rjahnel0@nature.com","Password":"GnUM67","Indirizzo":"4 Algoma Circle","Città":"Garango","Nazione":"Burkina Faso"},
-{"Telefono":"593-102-1792","Nome":"Hammad","Cognome":"Anfossi","email":"hanfossi1@quantcast.com","Password":"fuZ3AmXPq87d","Indirizzo":"02940 Melrose Way","Città":"Kalyny","Nazione":"Ukraine"},
-{"Telefono":"337-447-8166","Nome":"Vittorio","Cognome":"Haistwell","email":"vhaistwell2@ezinearticles.com","Password":"LfrMsEtq","Indirizzo":"79 Declaration Pass","Città":"Olafulihaa","Nazione":"Indonesia"},
-{"Telefono":"272-810-7933","Nome":"Cassie","Cognome":"Risbie","email":"crisbie3@squidoo.com","Password":"7QKDOlX05t3h","Indirizzo":"472 Burning Wood Alley","Città":"Kokstad","Nazione":"South Africa"},
-{"Telefono":"209-949-8032","Nome":"Aldon","Cognome":"Adderson","email":"aadderson4@t.co","Password":"n2zo6X4x","Indirizzo":"490 Morning Terrace","Città":"Madang","Nazione":"China"},
-{"Telefono":"152-617-9204","Nome":"Natasha","Cognome":"Bampton","email":"nbampton5@wikispaces.com","Password":"rclhvPXIVX","Indirizzo":"285 Monument Avenue","Città":"Botoh","Nazione":"Indonesia"},
-{"Telefono":"397-624-3846","Nome":"Lynnette","Cognome":"Sandes","email":"lsandes6@wufoo.com","Password":"7DN82txlWa","Indirizzo":"80 Schiller Hill","Città":"Sabang","Nazione":"Philippines"},
-{"Telefono":"877-836-5911","Nome":"Aida","Cognome":"Manuelli","email":"amanuelli7@phoca.cz","Password":"DSgMjFE","Indirizzo":"68395 Meadow Vale Junction","Città":"Shushicë","Nazione":"Albania"},
-{"Telefono":"756-735-7508","Nome":"Chantal","Cognome":"Call","email":"ccall8@europa.eu","Password":"OaWqV16jh","Indirizzo":"82189 Sauthoff Place","Città":"Moulay Yacoub","Nazione":"Morocco"},
-{"Telefono":"925-322-0008","Nome":"Vassily","Cognome":"Durrant","email":"vdurrant9@amazon.com","Password":"bTJO5ck","Indirizzo":"83502 2nd Park","Città":"Laowobao","Nazione":"China"}]}
+{"utenti":[
+     { "numtelefono":3234724567, "nome":"Alessio","cognome":"Romagnoli","email":"a.b@c.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""},
+	 { "numtelefono":3664746373, "nome":"Matteo","cognome":"Zavalloni","email":"aa.aa@s.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""},
+	 { "numtelefono":3486428543, "nome":"Filippo","cognome":"Corbara","email":"ww.ww@d.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""},
+	 { "numtelefono":3883667832, "nome":"Alberto","cognome":"Tardelli","email":"tt.tt@g.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""},
+	 { "numtelefono":3879168234, "nome":"Simone","cognome":"Mazzotti","email":"dd.dd@f.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""},
+	 { "numtelefono":3765284574, "nome":"Samir","cognome":"Ramazzotti","email":"rr.rr.a.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""},
+	 { "numtelefono":3455738292, "nome":"Enrico","cognome":"Gobbi","email":"ll.ll@h.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""},
+	 { "numtelefono":3320823745, "nome":"Tiberio","cognome":"Tamburini","email":"kk.kk@q.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""},
+	 { "numtelefono":3893627838, "nome":"Fabian","cognome":"Ruiz","email":"zz.zz@w.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""},
+	 { "numtelefono":3457569732, "nome":"Paolo","cognome":"Campanini","email":"yy.yy@j.com", "password":1, "indirizzo":"Andrea Foschi", "cap":"", "città":"", "nazione":"","fax":""}
+]
+}

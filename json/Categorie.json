@@ -1,11 +1,8 @@
-{"Categorie": [
-		{ "Tipo":"Da non perdere", "Sconto":20%},
-		{ "Tipo":"I più venduti", "Sconto":0%},
-		{ "Tipo":"Ultimi arrivi", "Sconto":0%},
-		{ "Tipo":"Remainders", "Sconto":50%},
-		{ "Tipo":"Offerte speciali", "Sconto":25%},
-		{ "Tipo":"Ultimi arrivi", "Sconto":0%},
-		{ "Tipo":"I più venduti", "Sconto":0%},
-		{ "Tipo":"Offerte speciali", "Sconto":25%},
+{"categorie": [
+		{ "tipo":"Ultimi arrivi", "sconto":0},
+		{ "tipo":"I più venduti", "sconto":0},
+		{ "tipo":"Da non perdere", "sconto":20},
+		{ "tipo":"Offerte speciali", "sconto":25},
+		{ "tipo":"Remainders", "sconto":50}
 	 ]
 }

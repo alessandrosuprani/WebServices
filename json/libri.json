@@ -1,13 +1,13 @@
-{"Libri": [
-		{ "ID":"1", "Titolo":"Le otto montagne" ,"Prezzo":23,"Num_Pagine":112,"Anno_pub:"1932,"Collana":"I capolavori di Urania","Data_arch":4/7/2018,"ID_Reparto":1,"Editore":"Chiado Books","ID_Autore":1},
-		{ "ID":"2", "Titolo":"Rondini d'inverno" ,"Prezzo":34,"Num_Pagine":113,"Anno_pub:"1927,"Collana":"I Romanzi del Cosmo","Data_arch":23/8/2017,"ID_Reparto":2,"Editore":"Catamarano (Il)","ID_Autore":2},
-		{ "ID":"3", "Titolo":"La rete di protezione" ,"Prezzo":26,"Num_Pagine":150,"Anno_pub":1928,"Collana":"Il Battello a Vapore","Data_arch":12/9/2017,"ID_Reparto":3,"Editore":"Bonfirraro Editore","ID_Autore":3},
-		{ "ID":"4", "Titolo":"La vita in due" ,"Prezzo":28,"Num_Pagine":160,"Anno_pub":1940,"Collana":"Cerchiorosso","Data_arch":8/1/2016,"ID_Reparto":4,"Editore":"Edipress","ID_Autore":4},
-		{ "ID":"5", "Titolo":"Tredici" ,"Prezzo":35,"Num_Pagine":170,"Anno_pub":1934,"Collana":"I Meridiani","Data_arch":9/2/2018,"ID_Reparto":5,"Editore":"Egea, Editrice","ID_Autore":5},
-		{ "ID":"6", "Titolo":"Dentro l'acqua" ,"Prezzo":29,"Num_Pagine":110,"Anno_pub":1945,"Collana":"Piccoli brividi","Data_arch":19/11/2018,"ID_Reparto":6,"Editore":"Feltrinelli","ID_Autore":6},
-		{ "ID":"7", "Titolo":"Sete" ,"Prezzo":30,"Num_Pagine":130,"Anno_pub":1947,"Collana":"Super brividi","Data_arch":3/1/2019,"ID_Reparto":7,"Editore":"Foixe Edizioni","ID_Autore":7},
-		{ "ID":"8", "Titolo":"Exit west" ,"Prezzo":31,"Num_Pagine":135,"Anno_pub":1960,"Collana":"Supersegretissimo","Data_arch":29/9/2018,"ID_Reparto":8,"Editore":"Global Press Italia","ID_Autore":8},
-		{ "ID":"9", "Titolo":"La serie di Valeria" ,"Prezzo":16,"Num_Pagine":137,"Anno_pub":1990,"Collana":"Il giallo dei ragazzi","Data_arch":6/7/2017,"ID_Reparto":9,"Editore":"Interlinea","ID_Autore":9},
-		{ "ID":"10", "Titolo":"La strega" ,"Prezzo":20,"Num_Pagine":140,"Anno_pub":1918,"Collana":"Miti Mondadori","Data_arch":4/11/2018,"ID_Reparto":10,"Editore":"Kora","ID_Autore":10}
-	 ]
+{"libri":[
+    { "ID":1, "titolo":"Spiderman","prezzo":15,"dataarch":"2015-08-13", "reparto":1, "autore":"Andrea Foschi"},
+	{ "ID":2, "titolo":"Monnalisa","prezzo":30,"dataarch":"2017-10-20", "reparto":3, "autore":"Giacomo Ravaglia"},
+	{ "ID":3, "titolo":"Il pantheon","prezzo":18,"dataarch":"2008-05-15", "reparto":2, "autore":"Claudio Bisio"},
+	{ "ID":4, "titolo":"Al di là del bene e del male","prezzo":25,"dataarch":"2003-01-26", "reparto":5, "autore":"Nietzche"},
+	{ "ID":5, "titolo":"Come cucinare le lasagne","prezzo":11,"dataarch":"1999-02-11", "reparto":4, "autore":"Antonino Canavacciuolo"},
+	{ "ID":6, "titolo":"Batman","prezzo":17,"dataarch":"2016-03-10", "reparto":1, "autore":"Marco Costanzo"},
+	{ "ID":7, "titolo":"Alla fiera dell'Est","prezzo":9,"dataarch":"1995-01-14", "reparto":1, "autore":"Gigi D'Alessio"},
+	{ "ID":8, "titolo":"Ratatouille","prezzo":20,"dataarch":"2007-05-15", "reparto":4, "autore":"Matteo Martini"},
+	{ "ID":9, "titolo":"Il Colosseo","prezzo":13,"dataarch":"2006-07-09", "reparto":2, "autore":"Simone Corbelli"},
+	{ "ID":10, "titolo":"Lo stile gotico","prezzo":16,"dataarch":"2019-01-08", "reparto":3, "autore":"Valerio Staffelli"}
+]
 }

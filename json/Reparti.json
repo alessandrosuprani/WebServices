@@ -1,13 +1,8 @@
-{"reparti": [
-		{ "ID":"1", "Tipo":Architettura},
-		{ "ID":"2", "Tipo":Architettura},
-		{ "ID":"3", "Tipo":Arte},
-		{ "ID":"4", "Tipo":Architettura},
-		{ "ID":"5", "Tipo":Arte},
-		{ "ID":"6", "Tipo":Fumetti},
-		{ "ID":"7", "Tipo":Architettura},
-		{ "ID":"8", "Tipo":Arte},
-		{ "ID":"9", "Tipo":Fumetti},
-		{ "ID":"10", "Tipo":Arte}
-	 ]
+{"reparti":[
+    { "ID":1, "tipo":"fumetto"},
+	{ "ID":2, "tipo":"architettura"},
+	{ "ID":3, "tipo":"arte"},
+	{ "ID":4, "tipo":"cucina"},
+	{ "ID":5, "tipo":"filosofia"}
+]
 }

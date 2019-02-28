@@ -1,0 +1,13 @@
+{"libricarrello":[
+     {"libro":10,"carrello":6, "ncopie":5, "disponibiltà":"3 settimane"},
+	 {"libro":4,"carrello":4, "ncopie":7, "disponibiltà":"2 giorni"},
+	 {"libro":7,"carrello":2, "ncopie":0, "disponibiltà":"Non disponibile"},
+	 {"libro":3,"carrello":9, "ncopie":15, "disponibiltà":"1 mese"},
+	 {"libro":5,"carrello":6, "ncopie":3, "disponibiltà":"5 giorni"},
+	 {"libro":8,"carrello":5, "ncopie":6, "disponibiltà":"2 settimane"},
+	 {"libro":1,"carrello":7, "ncopie":17, "disponibiltà":"2 mesi"},
+	 {"libro":6,"carrello":3, "ncopie":1, "disponibiltà":"1 giorno"},
+	 {"libro":2,"carrello":10, "ncopie":4, "disponibiltà":"4 giorni"},
+	 {"libro":9,"carrello":8, "ncopie":9, "disponibiltà":"1 settimana"}
+]
+}
