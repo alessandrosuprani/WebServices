@@ -122,7 +122,7 @@ namespace SOAPClient
                 MessageBox.Show("Inserisci un codice valido");
             else
             {
-                string url = @"http://10.13.100.27/Server/index.php/" + "?index=4&codice=" + codice;
+                string url = @"http://10.13.100.3/xampp\htdocs\TPI\Client\WebServices-server\json/index.php" + "?index=4&codice=" + codice;
 
                 GetRequest(url);
             }
